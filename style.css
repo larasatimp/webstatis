@@ -1,0 +1,90 @@
+/*ini adalah comment*/
+/*reset*/
+* {
+    margin: 0;
+    padding: 1%;
+}
+
+body {
+    font-family: Geneva;
+    color:dimgray;
+}
+
+img { 
+    width: 10%;/*ukuran gambar*/
+}
+
+/*paragraph*/
+p {
+    background-color: azure;
+    color: black;
+    font-family: cambria;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+ol {
+    padding-left: 60px;
+    color: black;
+    font-family: Arial Narrow;
+}
+
+/*link*/
+a {
+    color: white;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: dimgray;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.head2 {
+    color: rgb(18, 13, 13);
+    background: rgb(161, 160, 160);
+    text-align: center;
+}
+
+/*Class*/
+.pback {
+    border-radius: 10px;
+    background-color:salmon;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.back {
+    background-image: url(images/Mushab.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.wrapper-list {
+    background-color:dimgrey
+}
+
+.kel {
+    padding-bottom: 1%;
+    padding-left: 10px;
+    border: 2px solid goldenrod;
+    text-align: left;
+    color: cornsilk;
+    background-color: dimgrey;
+}
+
+.socialmedia {
+    display: inline-flex;
+}
+
+
