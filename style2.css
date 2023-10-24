@@ -1,0 +1,151 @@
+
+body {
+    background-color: wheat;
+    font-family: Cochin;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-size: 100%;
+}
+
+/*image size*/
+img {
+    width: 30%;
+    margin: auto;
+    display: flex;  
+}
+
+#A {
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10pt;
+    border: 5px solid  rgb(237, 219, 55);
+}
+
+#C {
+    background-color: azure;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(237, 219, 55);
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+    
+
+/*CSS Font*/
+p, ol {
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    font-family: Cochin;
+    font-size: larger;
+    text-align: justify;
+    background-color: wheat;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+
+}
+
+#li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.back {
+    background-image: url(images/belakang.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.wrapper-content {
+    background: wheat;
+    text-align: center;
+    color: black;
+}
+
+.box {
+    text-align: justify; 
+    color:black
+    font-size: larger;
+    font-family: Cochin;
+    background color: azure
+}
+
+table, th, td {
+    border: 1px solid;
+    margin: auto;
+    padding: 1%;
+}
+table {
+    width: 80%;
+}
+
+#D {
+    background-color: wheat;
+    color: black;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+/*link*/
+.link {
+    color: blue;
+    text-align: center;
+}
+
+/*untuk bagian bawah*/
+.footer {
+    margin-left: 0%;
+    margin-right: 0%;
+    color: black;
+    font-family: Cochin;
+    font-size: medium;
+    text-align: justify;
+    background-color:rgb(178, 206, 230);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+}
+
+.fa-square-youtube {
+    color: red;
+    width: auto;
+}
+
+.fa-face-smile {
+    color: yellow;
+    width: auto;
+}
+
+.fa-thumbs-up {
+    color: black;
+    width: auto;
+}
+
+.kel {
+    padding-bottom: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 5px solid rgb(178, 206, 230) ;
+    text-align: left;
+    color: black;
+    background-color: rgb(178, 206, 230) ;
+}
+
+* {box-sizing: border-box;}
